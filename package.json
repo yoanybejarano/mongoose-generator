@@ -1,0 +1,16 @@
+{
+  "name": "mongoose-generator",
+  "version": "1.0.0",
+  "description": "Mongoose Entities Generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yoany",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "mongoose": "^5.2.9",
+    "npm": "^6.4.0"
+  }
+}
