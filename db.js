@@ -15,7 +15,6 @@ connection.once('open', function () {
         collections.forEach(collection => {
 
             var collectionName = collection.collectionName;
-
             var dbReference = collection.dbName + '/' + collectionName
             var commandVariety = "variety " + dbReference + " --quiet --outputFormat='json'";
             collectionDefinitions = exec(commandVariety,
